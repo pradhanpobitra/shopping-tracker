@@ -1,7 +1,7 @@
 require('dotenv').config()
 const mongoose = require('mongoose')
  
-mongoose.connect(MONGO_CONNECTION_URL,{ useNewUrlParser: true, useCreateIndex:true, useUnifiedTopology: true, useFindAndModify : true })
+mongoose.connect(process.env.MONGO_CONNECTION_URL,{ useNewUrlParser: true, useCreateIndex:true, useUnifiedTopology: true, useFindAndModify : true })
         .then(() => console.log('db connected...'))
         .catch(err => console.error(err));
 

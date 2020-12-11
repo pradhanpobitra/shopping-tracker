@@ -14,7 +14,6 @@ const flash = require('express-flash')
 
 // Database connection
 // const url = 'mongodb://localhost/shopping';
-// const connString = 'mongodb+srv://user_pradhan:TVI1DCfplDiuBLJw@cluster0.5kgs2.mongodb.net/shopping?retryWrites=true&w=majority';
 
 // mongoose.connect(connString,{ useNewUrlParser: true, useCreateIndex:true, useUnifiedTopology: true, useFindAndModify : true })
 //         .then(() => console.log('db connected...'))
